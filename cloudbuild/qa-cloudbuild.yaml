@@ -9,7 +9,7 @@ steps:
         "--release", "release-${SHORT_SHA}"
       ]
 options:
-  logging: 'NONE'
+  logging: 'CLOUD_LOGGING_ONLY'
 substitutions:
   _PIPELINE_NAME: software-delivery-pipeline # default value
   _LOCATION: us-central1 # default value

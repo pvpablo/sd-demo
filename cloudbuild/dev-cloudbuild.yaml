@@ -20,3 +20,9 @@ options:
   logging: 'NONE'
 images:
 - '${_IMAGE_PATH}'
+substitutions:
+  _REPOSITORY: software-delivery-demo-repository # default value
+  _IMAGE: software-delivery-demo # default value
+  _LOCATION: us-central1 # default value
+  _PIPELINE_NAME: software-delivery-pipeline # default value
+  _IMAGE_PATH: us-central1-docker.pkg.dev/sd-deploy-showcase/software-delivery-demo-repository/software-delivery-demo # default value

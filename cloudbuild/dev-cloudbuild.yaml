@@ -17,6 +17,6 @@ steps:
         "--images", "${_IMAGE}=${_IMAGE_PATH}:$SHORT_SHA"
       ]
 options:
-  - logging: 'NONE'
+  logging: 'NONE'
 images:
 - '${_IMAGE_PATH}'

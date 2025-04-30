@@ -17,7 +17,7 @@ steps:
         "--images", "${_IMAGE}=${_IMAGE_PATH}:$SHORT_SHA"
       ]
 options:
-  logging: 'NONE'
+  logging: 'CLOUD_LOGGING_ONLY'
 images:
 - '${_IMAGE_PATH}'
 substitutions:
